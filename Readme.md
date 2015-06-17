@@ -19,4 +19,4 @@ The code that does analysis is available in run_analysis.R
 ## Pre requests
 install "dplyr" and "reshape2" packages
 ## Code execution
-The code will download source dataset, make appropriate transformation of data and saves output tidy dataset to tidy.txt
+The code will download source dataset, make appropriate transformation of data and save output tidy dataset to tidy.txt

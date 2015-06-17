@@ -11,8 +11,10 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
 ##Output dataset
+
 Output dataset is stored in tidy.txt file.
 ##Variables
+
 ###Activity.Name - name of activity
 with possible values:
 - WALKING
@@ -21,9 +23,13 @@ with possible values:
 - SITTING
 - STANDING
 - LAYING
+
 ###Subject.Id - identifies person who performed activity
+
 Numeric identifier within range 1-30
+
 ###Measurement variables
+
 each variable is average of original variable for each activity and subject. Please refer to codebook of original dataset for description of each variable
 names of measurement variables:
 - tBodyAcc.mean...Z                
